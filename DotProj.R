@@ -1,3 +1,7 @@
+## This is a short piece of code I wrote to help visualize the concepts at play in one of the theoretical proofs
+## my brother and I worked on together for one of his math classes. The theory says that for n red dots and n
+## blue dots, it is always possible to connect pairs of red and blue dots such that no two lines intersect.
+
 drawDots <- function(size=5, grouped=FALSE) {
   
   if ( grouped ) {
